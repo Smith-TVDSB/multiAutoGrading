@@ -22,8 +22,8 @@ TEST_CASE("ExerciseOne", "[example]") //Named ExerciseOne, tagged with example
 
 TEST_CASE("ExerciseTwo", "[example]")
 {
-    REQUIRE(subtractFive(4)==-1)
-    REQUIRE(subtractFive(10)==5)
+    REQUIRE(subtractFive(4)==-1);
+    REQUIRE(subtractFive(10)==5);
 }
 
 // Notes for teacher: 

@@ -15,15 +15,15 @@ TEST_CASE("ExerciseOne", "[example]") //Named ExerciseOne, tagged with example
 {
     
     //TODO: Set up tests
-    REQUIRE(replace(function()==Approx(5)); //within 1 of 5
-    REQUIRE(replace(function()==Approx(3).margin(5)); //within 5 units of 3
-    
-    //Checks keeps running if fails
-    CHECK(function()==0)
-
-    //Checks if a function throws an exception
-    REQUIRE_THROWS_WITH( openThePodBayDoors(), Contains( "afraid" ) && Contains( "can't do that" ) );
+    REQUIRE(addFive(5)==Approx(10); //within 1 of 5
+    REQUIRE(addFive(-2)==Approx(3).margin(5)); //within 5 units of 3
         
+}
+
+TEST_CASE("ExerciseTwo", "[example]")
+{
+    REQUIRE(subtractFive(4)==-1)
+    REQUIRE(subtractFive(10)==5)
 }
 
 // Notes for teacher: 

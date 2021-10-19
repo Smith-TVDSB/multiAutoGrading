@@ -8,9 +8,12 @@ using namespace std;
 // implementations
 
 //Replace string function
-int function()
+int addFive(int x)
 {
-	return "0"; // TODO: fix
+	return x+5;
 }
 
-
+int subtractFive(int y)
+{
+	return y-4;
+}

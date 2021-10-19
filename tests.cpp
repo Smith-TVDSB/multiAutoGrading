@@ -15,7 +15,7 @@ TEST_CASE("ExerciseOne", "[example]") //Named ExerciseOne, tagged with example
 {
     
     //TODO: Set up tests
-    REQUIRE(addFive(5)==Approx(10); //within 1 of 5
+    REQUIRE(addFive(5)==Approx(10)); //within 1 of 5
     REQUIRE(addFive(-2)==Approx(3).margin(5)); //within 5 units of 3
         
 }
